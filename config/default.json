@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://elraffa16:elraffa16@medconnector-jhxnm.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "d6cfdcd3e09ef8c3aaee",
+  "githubSecret": "3290d9b5f54693898553d97dd96f4ab5d0d8b2ca"
 }
