@@ -6,7 +6,7 @@ const Landing = () => {
     <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
-          <h1 className='x-large'>Med Connector</h1>
+          <h1 className='x-large'>MedConnector</h1>
           <p className='lead'>
             Crear un perfil, compartir información y conectarse con otros
             médicos electrofisiólogos
