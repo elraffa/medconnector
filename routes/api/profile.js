@@ -23,6 +23,7 @@ router.get('/me', auth, async (req, res) => {
         .status(400)
         .json({ msg: 'No hay perfil creado para este usuario' });
     }
+    res.json(profile);
   } catch (err) {
     console.error(err.message);
     res.status(500).json('Server error');
