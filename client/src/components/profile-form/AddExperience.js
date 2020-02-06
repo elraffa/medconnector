@@ -54,7 +54,6 @@ const AddExperience = ({ addExperience, history }) => {
             value={company}
             onChange={e => onChange(e)}
             required
-            required
           />
         </div>
         <div className='form-group'>
@@ -126,4 +125,4 @@ AddExperience.propTypes = {
   addExperience: PropTypes.func.isRequired
 };
 
-export default connect(null, { addExperience })(AddExperience);
+export default connect(null, { addExperience })(withRouter(AddExperience));

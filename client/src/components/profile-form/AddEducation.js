@@ -62,7 +62,6 @@ const AddEducation = ({ addEducation, history }) => {
             value={degree}
             onChange={e => onChange(e)}
             required
-            required
           />
         </div>
         <div className='form-group'>
@@ -134,4 +133,4 @@ AddEducation.propTypes = {
   addEducation: PropTypes.func.isRequired
 };
 
-export default connect(null, { addEducation })(AddEducation);
+export default connect(null, { addEducation })(withRouter(AddEducation));
